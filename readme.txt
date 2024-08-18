@@ -49,8 +49,13 @@ docker kill <id> not name
 docker rm <id>
 docker rmi db_14
 
+#### work version
+docker run -d -p 8881:22 -p 8882:5432 -p 8883:8000 --name docker_14_1 db_14
+docker run -d -p 8881:22 -p 8882:5432 -p 8883:8000 --name docker_14_2 db_14
+docker run -d -p 8881:22 -p 8882:5432 -p 8883:8000 --name docker_14_3 db_14
+docker run -d -p 8881:22 -p 8882:5432 -p 8883:8000 --name docker_14_4 db_14
 
-
-
+docker stop docker_14_1
+docker start docker_14_1
 
 
