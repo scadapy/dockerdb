@@ -51,9 +51,9 @@ docker rmi db_14
 
 #### work version
 docker run -d -p 8881:22 -p 8882:5432 -p 8883:8000 --name docker_14_1 db_14
-docker run -d -p 8881:22 -p 8882:5432 -p 8883:8000 --name docker_14_2 db_14
-docker run -d -p 8881:22 -p 8882:5432 -p 8883:8000 --name docker_14_3 db_14
-docker run -d -p 8881:22 -p 8882:5432 -p 8883:8000 --name docker_14_4 db_14
+docker run -d -p 8871:22 -p 8872:5432 -p 8873:8000 --name docker_14_2 db_14
+docker run -d -p 8861:22 -p 8862:5432 -p 8863:8000 --name docker_14_3 db_14
+docker run -d -p 8851:22 -p 8852:5432 -p 8853:8000 --name docker_14_4 db_14
 
 docker stop docker_14_1
 docker start docker_14_1
